@@ -1,0 +1,71 @@
+#header .header-wrapper {
+    height: 70px;
+    background-color: #3bff9bc9 !important;
+}
+
+/*side bar*/
+#sidebar>.wrapper>.button.toggle:hover, #sidebar>.wrapper>.button.toggle.open {
+    background: #31ad64 !important;
+}
+
+
+/*default color*/
+#planning .calendar .appoint {
+    background-color: #1d1d1d !important;
+}
+
+/*default color*/
+#planning .calendar .module_registered {
+    background-color: #181641 !important;
+}
+
+/*register notification*/
+#notice .notification.info:first-child {
+    border: 1px #00974c !important;
+}
+#notice .notification.info {
+    background: #05ff80 !important;
+    border: 1px #00974c !important;
+    border-top: none;
+}
+
+/*Hub Talk*/
+.planner.daysview .appoints .appoint h4, .planner.details.weeksview > .weeks .appoints .appoint.multiday h4 {
+    -moz-border-radius: 3px 3px 0 0;
+    -webkit-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    background: #fc0000 !important;
+}
+
+.planner.daysview .appoints .appoint.event_registered h4, .planner.details.weeksview > .weeks .appoints .appoint.multiday h4 {
+    -moz-border-radius: 3px 3px 0 0;
+    -webkit-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    background-color: #00ff80 !important;
+}
+
+
+
+/*presence*/
+#planning .calendar .event_registered.event-absent {
+    background-color: rgba(255, 0, 0, 0.534) !important;
+}
+
+#planning .calendar .event_registered.event-present {
+    background-color: rgba(0, 212, 28, 0.534) !important;
+}
+
+#planning .calendar .event_registered {
+    background-color: rgba(255, 174, 0, 0.623) !important;
+}
+
+#sidebar {
+    background: #00213a !important;
+    color: white;
+    position: relative;
+}
+
+#sidebar>.wrapper>.bloc.filter {
+    background: #00213a !important;
+    padding: 0 5px 5px;
+}
